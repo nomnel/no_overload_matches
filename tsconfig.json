@@ -10,9 +10,12 @@
     ],
     "esModuleInterop": true,
     "allowJs": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
     "sourceMap": true,
     "strict": true,
     "noEmit": true,
+    "noImplicitAny": false, /* Raise error on expressions and declarations with an implied 'any' type. */
     "experimentalDecorators": true,
     "baseUrl": ".",
     "paths": {
