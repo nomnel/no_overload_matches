@@ -5,6 +5,7 @@
         <logo />
         <vuetify-logo />
       </div>
+      <Wrapper></Wrapper>
       <v-card>
         <v-card-title class="headline">
           Welcome to the Vuetify + Nuxt.js template
@@ -83,11 +84,13 @@
 <script>
 import Logo from '~/components/Logo.vue'
 import VuetifyLogo from '~/components/VuetifyLogo.vue'
+import Wrapper from '~/components/Wrapper.vue'
 
 export default {
   components: {
     Logo,
     VuetifyLogo,
+    Wrapper,
   },
 }
 </script>
