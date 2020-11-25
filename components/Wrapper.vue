@@ -1,6 +1,6 @@
 <script lang="tsx">
 import Vue from 'vue'
-import Inner from '~/components/Inner.vue'
+import Inner from '~/components/Inner.tsx'
 
 export default Vue.extend({
   render() {
